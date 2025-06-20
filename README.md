@@ -16,7 +16,7 @@ Built using **Node.js**, **Express**, and **SQLite3**, it supports fast local qu
 ## Project Structure
 
 eigenlayer-restaking-api/
-├── config/            # DB connection and config loader
+├── config/            # DB connection and config loader␣␣ 
 ├── controllers/       # Handles logic for each endpoint
 ├── routes/            # API routes for Express
 ├── scripts/           # fetchData script with mock or real data
