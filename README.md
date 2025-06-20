@@ -15,8 +15,7 @@ Built using **Node.js**, **Express**, and **SQLite3**, it supports fast local qu
 
 ## Project Structure
 
-<pre> ```bash eigenlayer-restaking-api/ ├── config/ # DB connection and config loader ├── controllers/ # Handles logic for each endpoint ├── routes/ # API routes for Express ├── scripts/ # fetchData script with mock or real data ├── utils/ # Table creation and helpers ├── eigenlayer.db # SQLite database ├── server.js # Main server file └── README.md # This file ``` </pre>
-
+<pre> eigenlayer-restaking-api/ #├── config/ # DB connection and config loader #├── controllers/ # Handles logic for each endpoint #├── routes/ # API routes for Express #├── scripts/ # fetchData script with mock or real data #├── utils/ # Table creation and helpers #├── eigenlayer.db # SQLite database #├── server.js # Main server file #└── README.md # This file </pre>
 
 ## ⚙️ Setup Instructions
 
