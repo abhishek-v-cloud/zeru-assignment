@@ -17,16 +17,13 @@ Built using **Node.js**, **Express**, and **SQLite3**, it supports fast local qu
 
 eigenlayer-restaking-api/
 ├── config/
-
 ├── controllers/
-
 ├── routes/
-
-├── scripts/           
-├── utils/             
+├── scripts/
+├── utils/
 ├── eigenlayer.db
-├── server.js          
-└── README.md        
+├── server.js
+└── README.md
 
 ## ⚙️ Setup Instructions
 
