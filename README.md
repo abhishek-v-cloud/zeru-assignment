@@ -1,16 +1,19 @@
-# zeru-assignment
-EigenLayer Restaking Info API
+# EigenLayer Restaking Info API
 
-Overview
-This project provides a REST API that aggregates and exposes restaking data on the EigenLayer protocol, including:
+## Overview
 
--User Restaking Information
--Validator Metadata
--Reward Insights
+This project provides a **REST API** that aggregates and exposes restaking data on the **EigenLayer** protocol.
 
-Built using Node.js, Express, and SQLite3, it allows fast local querying.
+### Features:
+-  User Restaking Information  
+-  Validator Metadata  
+-  Reward Insights  
 
-Project Structure
+Built using **Node.js**, **Express**, and **SQLite3**, it supports fast local querying of mock or real blockchain data.
+
+---
+
+## 🗂️ Project Structure
 
 eigenlayer-restaking-api/
 ├── config/             # DB connection and config loader
@@ -22,17 +25,22 @@ eigenlayer-restaking-api/
 ├── server.js           # Main server file
 └── README.md           # This file
 
-Setup Instructions
--Node.js v22 
--npm 
+---
 
-Steps
-Install dependencies
--npm install
+## ⚙️ Setup Instructions
 
-Start the server
--node server.js
-The server runs on http://localhost:4000/
+### Requirements
+- Node.js v22  
+- npm (comes with Node.js)
+
+### Steps
+
+#### 1. Install dependencies
+
+```bash
+npm install
+node server.js
+
 
 API Endpoints
 1. GET /restakers
@@ -97,6 +105,18 @@ json
         }
     ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
