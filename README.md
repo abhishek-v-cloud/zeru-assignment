@@ -9,11 +9,11 @@ This project provides a **REST API** that aggregates and exposes restaking data 
 -  Validator Metadata  
 -  Reward Insights  
 
-Built using **Node.js**, **Express**, and **SQLite3**, it supports fast local querying of mock or real blockchain data.
+Built using **Node.js**, **Express**, and **SQLite3**, it supports fast local querying data.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 eigenlayer-restaking-api/
 ├── config/             # DB connection and config loader
@@ -105,28 +105,3 @@ json
         }
     ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
