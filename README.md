@@ -90,18 +90,18 @@ Returns rewards for a wallet address.
 
 json
 {
-    "walletAddress":"0xUser111",
-    "totalRewardsReceivedStETH":45.2,
-    "rewardsBreakdown": [
-        {
-            "operatorAddress":"0xOpA1",
-            "amountStETH":30.2,
-            "timestamp":1678972800
-        },
-        {
-            "operatorAddress":"0xOpA2",
-            "amountStETH":15,
-            "timestamp":1679059200
-        }
-    ]
+  "walletAddress":"0xUser111",
+  "totalRewardsReceivedStETH":45.2,
+  "rewardsBreakdown": [
+    {
+      "operatorAddress":"0xOpA1",
+      "amountStETH":30.2,
+      "timestamps":[1678972800]
+    },
+    {
+      "operatorAddress":"0xOpA2",
+      "amountStETH":15,
+      "timestamps":[1679059200]
+    }
+  ]
 }
